@@ -1,0 +1,75 @@
+html{
+    font-family: Cambria;
+}
+
+div.all{
+    display: flex;
+    flex-direction: row;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background-color: #E1BEE7;
+}
+
+.aside1{
+    height: 400px;
+}
+
+.aside2{
+    height: 300px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    font-size: 170%;
+    text-align: center;
+}
+
+.main1{
+    background-color: #9C64A6;
+    color: white;
+    height: 150px;
+    letter-spacing: 5px;
+}
+
+.main2{
+    color: indigo;
+    height: 580px;
+}
+
+footer{
+    background-color: #9C64A6;
+    color: white;
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+img{
+    padding: 4px;
+    margin: 15px;
+}
+
+img:hover{
+    padding: 3px;
+    border: dotted 1px indigo;
+}
+
+#main_page{
+    padding: 25px;
+}
+
+label{
+    display: block;
+}
