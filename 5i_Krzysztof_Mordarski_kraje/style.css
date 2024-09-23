@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 80%;
+    box-shadow: 1px 1px 1px 1px ;
+}
+
+header{
+    text-align: center;
+}
+
+div.all{
+    display: flex;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+}
+
+label{
+    text-align: start;
+    display: block;
+    margin: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
